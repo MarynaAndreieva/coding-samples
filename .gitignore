@@ -1,2 +1,8 @@
 # Project exclude paths
 /out/
+/.idea/
+/target/
+/*.iml
+**/.DS_Store
+/build/
+/.gradle/
