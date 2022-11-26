@@ -11,5 +11,9 @@ public class StudentTest {
 
         Student studentThree = new Student(5, 8, 11, "Sergiy", "Velykiy", 1, 23);
         studentThree.averageValueOfThreeSubjects (studentThree);
+
+        Student student1 = new Student("Petia", "Piatochkin", 2, 34);
+
+        Student student2 = new Student();
     }
 }

@@ -13,7 +13,7 @@ public class SecondHomeWork {
         result = i2 / d1 + d2 % i1 - l; //2 + 1.3 - 20 = -16.7
         System.out.println(result);
 
-        //Task 2: calculates values for b and d
+        //Task 2: Calculate values for c and d
         int a = 5;
         int b = 8;
 

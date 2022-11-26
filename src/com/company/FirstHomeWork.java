@@ -33,7 +33,5 @@ public class FirstHomeWork {
         System.out.print(char1);
         System.out.print(char2);
         System.out.print(char3);
-        char3++;
-        System.out.print(char3);
     }
 }
