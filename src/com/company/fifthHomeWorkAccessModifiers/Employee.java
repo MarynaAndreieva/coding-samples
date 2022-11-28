@@ -5,11 +5,14 @@ public class Employee {
     public String sureName;
     private int salary;
 
-    Employee(int id) {
+    Employee(int id, int salary, String sureName) {
         this.id = id;
+        this.salary = salary;
+        this.sureName = sureName;
     }
 
-    public Employee(String sureName) {
+    public Employee(int id, String sureName) {
+        this.id = id;
         this.sureName = sureName;
     }
 
@@ -17,15 +20,15 @@ public class Employee {
         this.salary = salary;
     }
 
-    public static void printResults(String sureName) {
-        System.out.println(sureName);
-    }
-
-    static void printResults(int id) {
-        System.out.println(id);
-    }
-
     private static void printResults(int salary) {
         System.out.println(salary);
+    }
+
+    static void printResults(int id, String sureName) {
+        System.out.println(id + " " + sureName);
+    }
+
+    static void printResults(int id, int salary, String sureName) {
+        System.out.println(id + " " + salary + " " + sureName);
     }
 }
