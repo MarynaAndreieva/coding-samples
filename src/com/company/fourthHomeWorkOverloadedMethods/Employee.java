@@ -2,11 +2,11 @@ package com.company.fourthHomeWorkOverloadedMethods;
 
 public class Employee {
 
-    private final int id;
-    private final String sureName;
-    private final int age;
-    private final int salary;
-    private final String department;
+    private int id;
+    private int age;
+    private int salary;
+    private String sureName;
+    private String department;
 
     public Employee(int id, String sureName, int age, int salary, String department) {
         this.id = id;
