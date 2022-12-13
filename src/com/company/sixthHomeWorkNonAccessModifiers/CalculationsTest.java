@@ -10,7 +10,7 @@ public class CalculationsTest {
         product2.productOfNumbers(4, 7, 8);
 
         Calculations division1 = new Calculations();
-        division1.divisionOfNumbers(10, 2);
+        division1.divisionOfNumbers(10, 0);
 
         Calculations division2 = new Calculations();
         division2.divisionOfNumbers(12, 4);

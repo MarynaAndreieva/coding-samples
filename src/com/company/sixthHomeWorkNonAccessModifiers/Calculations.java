@@ -11,15 +11,14 @@ public class Calculations {
     }
 
     public static void divisionOfNumbers(int d, int i) {
-        int module = d / i;
+
         try {
-            int[] i = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-            System.out.println(i[0]);
+            int module = d / i;
+            int remainder = d % i;
+            System.out.println("Module: " + module + " Remainder: " + remainder);
         } catch (Exception e) {
             System.out.println("Сan't divide by zero");
         }
-        int remainder = d % i;
-        System.out.println("Module: " + module + " Remainder: " + remainder);
     }
 
     public double circleSquare(double r) {
