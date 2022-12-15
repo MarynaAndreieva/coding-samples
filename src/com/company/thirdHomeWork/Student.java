@@ -4,7 +4,7 @@ public class Student {
 
     private int studentIdNumber;
     private int studentCourse;
-    private int averageValueMath;
+    public static int averageValueMath;
     private int averageValueEconomics;
     private int averageValueForeignLanguage;
     private String studentSureName;
