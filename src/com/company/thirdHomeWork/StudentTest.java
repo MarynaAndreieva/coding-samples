@@ -2,9 +2,6 @@ package com.company.thirdHomeWork;
 
 public class StudentTest {
 
-private int course;
-private int amountOfStudentsOnCourse;
-
     public static void main(String[] args) {
         Student studentOne = new Student(9, 10, 12, "Petr", "Karasov", 2, 367);
         studentOne.averageValueOfThreeSubjects(studentOne);
@@ -17,19 +14,31 @@ private int amountOfStudentsOnCourse;
 
         Student student1 = new Student("Petia", "Piatochkin", 2, 34);
 
-        Student student2 = new Student();
+        Student student2 = new Student("Petia", "Piatochkin4", 2, 34);
 
+        compareStudents(studentOne, studentTwo);
+        compareStudentsAttributes(student1, student2);
+    }
 
-        public static void method1(){
-            Student studentA = new Student (3, 15, 4, "Viktor", "Pavlic", 4, 2342);
-            studentA.averageValueOfThreeSubjects(studentA);
+    public static void compareStudents(Student studentA, Student studentB) {
+        if (studentA.getStudentCourse() == studentB.getStudentCourse()) {
+            System.out.println("These students are on the same course");
+        } else {
+            System.out.println("These students are on different courses");
+        }
+    }
 
-            Student studentB = new Student (3, 15, 4, "Oleksiy", "Potapenko", 5, 3434);
-            studentA.averageValueOfThreeSubjects(studentB);
-            if (studentA.course <= studentA.course) {
-
-                System.out.println();
+    public static void compareStudentsAttributes(Student studentC, Student studentD) {
+        if (studentC.getStudentName() == studentD.getStudentName()) {
+            if (studentC.getStudentSureName() == studentD.getStudentSureName()) {
+                if (studentC.getStudentCourse() == studentD.getStudentCourse()) {
+                    if (studentC.getStudentIdNumber() == studentD.getStudentIdNumber()) {
+                        System.out.println("Students attributes are equal");
+                    }
+                }
             }
+        } else {
+            System.out.println("Students attributes are different");
         }
     }
 }

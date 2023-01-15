@@ -1,6 +1,21 @@
 package com.company.thirdHomeWork;
 
 public class Student {
+    public int getStudentCourse() {
+        return studentCourse;
+    }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public String getStudentSureName() {
+        return studentSureName;
+    }
+
+    public int getStudentIdNumber() {
+        return studentIdNumber;
+    }
 
     private int studentIdNumber;
     private int studentCourse;
