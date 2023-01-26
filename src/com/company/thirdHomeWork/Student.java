@@ -5,6 +5,11 @@ public class Student {
         return studentCourse;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
     public String getStudentName() {
         return studentName;
     }

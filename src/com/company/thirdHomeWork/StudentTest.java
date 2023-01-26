@@ -14,10 +14,12 @@ public class StudentTest {
 
         Student student1 = new Student("Petia", "Piatochkin", 2, 34);
 
-        Student student2 = new Student("Petia", "Piatochkin4", 2, 34);
+        Student student2 = new Student("Petia", "Piatochkin", 2, 34);
 
         compareStudents(studentOne, studentTwo);
         compareStudentsAttributes(student1, student2);
+
+        System.out.println(student1.equals(student2));
     }
 
     public static void compareStudents(Student studentA, Student studentB) {

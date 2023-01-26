@@ -3,7 +3,7 @@ package com.company.seventhHomeWorkLoops;
 public class Month {
 
     public static void main(String[] args) {
-        printDaysOfMonth(1);
+        printDaysOfMonth(32);
     }
 
     public static void printDaysOfMonth(int monthSequenceNumber) {
@@ -44,6 +44,8 @@ public class Month {
             case 12:
                 System.out.println(31);
                 break;
+            default:
+                System.out.println("This Month number doesn't exist");
         }
     }
 }
